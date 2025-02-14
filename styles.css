@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: #131313;
+    background: #0e0e0e;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -130,7 +130,7 @@
     }
 
     .navbar__menu.active {
-        background: #131313;
+        background: #0e0e0e;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
@@ -431,6 +431,42 @@
     cursor: pointer;
 }
 
+/* Text Container Styling */
+
+.text-section {
+    background-color: #141414;
+}
+
+.text-section h1 {
+    background-color: #ff8177;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.text-container {
+    max-width: 800px;
+    background: #b0aeae;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+.text-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    /* background-image: linear-gradient(to right, #8977ff 0%, #a47aff 0%, #7f94ff 21%, #8589f9 52%, #6555cf 78%, #472ab1 100%); */
+    background-image: linear-gradient(to right, #77ff8b 0%, #7aff9b 0%, #7fffa3 21%, #85f992 52%, #55cf63 78%, #2ab135 100%);
+}
+
 @media screen and (max-width: 960px) {
     .services {
         height: 1600px;
@@ -454,6 +490,22 @@
     .services__card {
         width: 300px;
     }
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 30%;
+    margin-left: 5rem;
 }
 
 /* Footer CSS */

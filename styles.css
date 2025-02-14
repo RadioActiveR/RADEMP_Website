@@ -463,6 +463,7 @@
 .text-container h1 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 80px;
     /* background-image: linear-gradient(to right, #8977ff 0%, #a47aff 0%, #7f94ff 21%, #8589f9 52%, #6555cf 78%, #472ab1 100%); */
     background-image: linear-gradient(to right, #77ff8b 0%, #7aff9b 0%, #7fffa3 21%, #85f992 52%, #55cf63 78%, #2ab135 100%);
 }

@@ -468,6 +468,29 @@
     background-image: linear-gradient(to right, #77ff8b 0%, #7aff9b 0%, #7fffa3 21%, #85f992 52%, #55cf63 78%, #2ab135 100%);
 }
 
+@media screen and (max-width: 768px) {
+    .text-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .text-container h1 {
+        font-size: 40px; /* Reduce font size for readability */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .text-container h1 {
+        font-size: 30px; /* Further reduce font size for small screens */
+    }
+}
+
+
 @media screen and (max-width: 960px) {
     .services {
         height: 1600px;

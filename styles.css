@@ -551,6 +551,10 @@
     font-size: 2rem;
 }
 
+.website__right {
+    color: #ffffff;
+}
+
 .footer__links {
     width: 100%;
     max-width: 1000px;
